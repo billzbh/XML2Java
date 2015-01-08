@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+      	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+  
+    	<Button
+        	android:layout_weight="1"
+       	 	android:id="@+id/button00"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="检测蓝牙连接" />
+
+	    <Button
+	        android:layout_weight="1"
+	        android:id="@+id/button01"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="刷卡" />
+    </LinearLayout>
+    
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	        android:layout_weight="1"
+	        android:id="@+id/button02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="读IC卡" />
+	
+	    <Button
+       		android:layout_weight="1"
+       		android:id="@+id/button03"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="读二代证" />
+    </LinearLayout>
+	    
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+		<Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button04"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="密码键盘测试" />
+		<Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button05"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="M1卡测试(选)" />
+    </LinearLayout>
+	    
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button06"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="射频CPU卡测试" />
+		<Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button07"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Pboc发卡测试" />
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button08"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Pboc核心测试" />
+		<Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button09"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Jsb Pboc测试" />
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="IMFC 指纹模块测试" />
+		<Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button11"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="IMFC SD_ICC测试" />
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button12"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="iMate指纹模块测试" />
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button13"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="PbocHight测试" />
+	</LinearLayout>
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button14"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="读射频pboc卡信息" />
+	    <Button
+	       	android:layout_weight="1"
+	        android:id="@+id/button15"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="保留" />
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scrollbars="vertical" />
+
+</LinearLayout>

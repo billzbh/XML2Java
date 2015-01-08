@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//jni/common=GBK
+encoding//jni/jsbpboc/JsbPboc.c=GBK
+encoding//jni/jsbpboc/JsbPboc.h=GBK
+encoding//jni/pbocapi=GBK
+encoding//src/com/hxsmart/imateinterface/BluetoothThread.java=UTF-8
+encoding//src/com/hxsmart/imateinterface/MainActivity.java=UTF-8
+encoding//src/com/hxsmart/imateinterface/jsbpbocsdk/JsbPbocApi.java=GBK
+encoding//src/com/hxsmart/imateinterface/mifcard/MifCard.java=UTF-8
+encoding//src/com/hxsmart/imateinterface/pbochighsdk/PbocHighApi.java=UTF-8
+encoding//src/com/hxsmart/imateinterface/pbocissuecard=UTF-8
+encoding//src/com/hxsmart/imateinterface/pbocsdk=UTF-8
+encoding//src/com/hxsmart/imateinterface/pinpad/Pinpad.java=UTF-8
+encoding//src/com/ivsign/android/IDCReader/IDCReaderSDK.java=UTF-8
+encoding/jni=UTF-8
+encoding/src=UTF-8
